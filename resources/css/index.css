@@ -27,8 +27,8 @@
   header {
     position: fixed;
     width: 100%;
-    height: 70px;
-    padding-top: 30px;
+    height: 15%;
+    padding-top: 3%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -38,17 +38,20 @@
   }
 
   header h1 {
-    padding-left: 20px;
     color: seagreen;
+    padding-left: 10%;
   }
 
-  nav ul {
-    margin-right: 100px;
+  nav {
+    width: 50%;
+    padding-right: 5%;
   }
+
 
   nav li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 4%;
+    margin-bottom: 10%;
   }
 
   nav li a{
@@ -68,7 +71,7 @@
 
   main {
     position: relative;
-    top: 100px;
+    top: 150px;
     /*background-image: url(../images/bluebackground.png);
     height: 600px;*/
     width: 80%;
