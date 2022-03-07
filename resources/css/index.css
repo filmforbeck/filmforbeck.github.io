@@ -8,8 +8,8 @@
   
   
   body {
-    font-family: "Nanum Myeongjo", "Georgia", serif;
-    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
   }
   
   p, 
@@ -27,18 +27,25 @@
   header {
     position: fixed;
     width: 100%;
-    height: 15%;
+    height: 120px;
     padding-top: 3%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     border-bottom: 2px solid steelblue;
     z-index: 10;
-    background-color: lightcyan;
+    background-color: aliceblue;
   }
 
   header h1 {
-    color: seagreen;
+    color: indigo;
+  }
+
+  header h3 {
+    color: indigo;
+  }
+
+  #nameplate {
     padding-left: 10%;
   }
 
@@ -51,7 +58,7 @@
   nav li {
     display: inline-block;
     margin-left: 4%;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
   }
 
   nav li a{
@@ -71,7 +78,7 @@
 
   main {
     position: relative;
-    top: 150px;
+    top: 180px;
     /*background-image: url(../images/bluebackground.png);
     height: 600px;*/
     width: 80%;
@@ -91,7 +98,7 @@
 
   .gallery-block {
     display: inline-block;
-    font-family: "Manrope", Helvetica, Arial, sans-serif;
+    /* font-family: "Manrope", Helvetica, Arial, sans-serif; */
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 6%;
@@ -105,6 +112,7 @@
 
   .gallery-icon {
     width: 100%;
+    border-radius: 10px;
   }
 
   #galleries {
@@ -120,9 +128,8 @@
   }
 
   #galleries li:hover {
-    background-color: lightslategray;
     color: whitesmoke;
-    opacity: .8;
+    opacity: .7;
   }
 
   #galleries {
@@ -131,10 +138,12 @@
 
   #contact {
     padding-left: 5%;
+    margin-bottom: 3%;
   }
 
   #contact h3 {
-    margin-bottom: 3%;
+    color: indigo;
+    margin-bottom: 1%;
   }
 
   #contact a {
@@ -144,16 +153,14 @@
 
   #contact li {
     display: inline-block;
-    font-family: "Manrope", Helvetica, Arial, sans-serif;
-    margin-left: 30px;
-    border: 1px solid slategray;
-    background-color: rgba(224,255,255,0.5);
+    font-size: xx-large;
+    margin-left: 5%;
+    color: indigo;
     transition: all 600ms ease 100ms;
   }
 
   #contact li:hover {
-    background-color: lightslategray;
-    color: whitesmoke;
+    color: cornflowerblue;
     opacity: .8;
   }
 
@@ -162,16 +169,16 @@
   footer {
     position: relative;
     top: 100px;
-    border-top: 2px solid lightcyan;
+    /* border-top: 2px solid lightcyan; */
   }
 
   footer h5 {
     margin-left: 10%;
     padding-top: 1%;
     padding-left: 2%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 10%;
-    color: indigo;
+    color: #24AB92;
   }
   
   
