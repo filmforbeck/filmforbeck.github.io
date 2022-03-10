@@ -129,17 +129,14 @@
   }
 
   .bio {
-    padding-top: 5%;
-    display: flex;
-    justify-items: space-between;
+    padding: 5%;
   }
 
   .bio img {
     height: 100%;
-  }
-
-  .bio section {
-    padding: 5%;
+    margin: 0 5%;
+    margin-bottom: 2%;
+    float: left;
   }
 
   .bio h1 {
